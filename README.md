@@ -1,4 +1,6 @@
 # diceGame2
+https://sofkov.github.io/diceGame2/
+
 Two-player variation of the dice game
 
 Theme changed to RuPaul's Drag Race - Lipsync for your LIFE
