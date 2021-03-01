@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game 2 | Kov</title>
+</head>
+<body>
+    <div id="content">
+        <div class="head">
+
+            <h1>Can you lipsync for your LIFE?</h1>
+
+        </div>
+
+        <div class="rules">
+
+            <h2>Rules:</h2>
+            <ul>
+                <li>The game has 2 players, playing in rounds</li>
+                <li>In each turn, a player rolls the dice as many times as they wish. Each result gets added to their overall score</li>
+                <li>The player can choose to 'HOLD', adding their current score to their overall score, finishing their turn</li>
+                <li>BUT, if the player rolls a 1, their overall score goes back to 0, and it's the next player's turn</li>
+                <li>The first player to reach an overall score of 20 or above, wins the game!</li>
+            </ul>
+
+        </div>
+        <div class="game">
+
+            <div class="playerbox" id="left">
+
+                <h3 class="player" id="pOne">Player 1</h3>
+                <p class= "score" id="pOneOverallScore">0</p>
+                <div class="counter">
+                    <p class="current">CURRENT</p>
+                    <p class ="currentScore" id="pOneCurrCount">0</p>
+                </div>
+            </div>
+            
+            <div class="playerbox" id="right">
+
+                <h3 class="player" id="pTwo">Player 2</h3>
+                <p class= "score" id="pTwoOverallScore">0</p>
+                <div class="counter">
+                    <p class="current">CURRENT</p>
+                    <p class ="currentScore" id="pTwoCurrCount">0</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="gameOverlay">
+
+            <button class="btn" id="newGame">NEW GAME</button>
+            <img id="dice" src="./images/dice1.png" alt="Dice Roll">
+            <button class="btn" id="roll">ROLL DICE</button>
+            <button class="btn" id="hold">HOLD</button>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

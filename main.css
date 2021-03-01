@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Roboto&display=swap');
+/* font-family: 'Coda Caption', sans-serif; */
+*{
+    margin:0;
+
+}
+html{
+    background: url(./images/runway.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    font-family: 'Coda Caption', sans-serif;
+    font-size:18px;
+    color:rgb(240, 248, 255);
+    border: solid 2px aliceblue;
+    background-color: rgba(60, 16, 71, 0.514);
+    text-align: center;
+    margin: 20px  400px 0px;
+}
+
+.rules{
+    color:aliceblue;
+    border: solid 2px aliceblue;
+    background-color: rgba(60, 16, 71, 0.514);
+    margin:5px 400px;
+}
+.rules h2{
+    font-family: 'Coda Caption', sans-serif;
+    font-size:28px;
+    text-align: center;
+}
+.rules ul{
+    justify-self: flex-start;
+    align-self:flex-start;
+    margin: 10px  50px;
+    list-style-type: square;
+    line-height: 1.5;
+}
+.game{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    border: solid 2px aliceblue;
+    background-color: rgba(60, 16, 71, 0.514);
+    margin: 0px 400px;
+}
+
+.playerbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    padding: 20px 80px;
+    border-radius: 5px;
+    color:aliceblue;
+    border: solid 2px aliceblue;
+    background-color: rgba(175, 25, 212, 0.589);
+    margin:10px;
+}
+.player, .current{
+    font-family: 'Coda Caption', sans-serif;
+}
+h3{
+    overflow-wrap:break-word;
+    word-wrap: break-word;
+    font-size:20px;
+}
+.counter{
+    text-align: center;
+}
+.score, .currentScore{
+    font-size:40px;
+    margin:50px;
+}
+
+#gameOverlay{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    bottom:300px;
+}
+
+.btn {
+    background-color: aliceblue;
+    border: solid 2px rgba(60, 16, 71);
+    border-radius: 5px;
+    color:rgba(60, 16, 71);
+    font-size:15px;
+    font-weight:bold;
+    text-align: center;
+    width: fit-content;
+    cursor:pointer;
+    margin:5px;
+    padding:5px;
+}
+
