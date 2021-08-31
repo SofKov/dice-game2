@@ -1,5 +1,5 @@
 # diceGame2
-https://sofkov.github.io/diceGame2/
+https://sofkov.github.io/dice-game2/
 
 Two-player variation of the dice game
 
